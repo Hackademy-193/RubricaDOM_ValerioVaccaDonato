@@ -16,7 +16,7 @@
         integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
 
     <!-- FAVICON -->
-     <link rel="shortcut icon" href="./phone-book.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./phone-book.jpg" type="image/x-icon">
 
     <!-- CSS CUSTOM -->
     <link rel="stylesheet" href="./style.css">
@@ -33,14 +33,15 @@
             <div class="col-6">
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1"><i class="fa-regular fa-user"></i></span>
-                    <input id="nameInput" type="text" class="form-control" placeholder="Nome Contatto" aria-label="Username"
-                        aria-describedby="basic-addon1" value="">
+                    <input id="nameInput" type="text" class="form-control" placeholder="Nome Contatto"
+                        aria-label="Username" aria-describedby="basic-addon1" value="">
                 </div>
 
                 <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-mobile-screen-button"></i></span>
-                    <input id="numberInput" type="number" class="form-control" placeholder="Numero Contatto" aria-label="Username"
-                        aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><i
+                            class="fa-solid fa-mobile-screen-button"></i></span>
+                    <input id="numberInput" type="number" class="form-control" placeholder="Numero Contatto"
+                        aria-label="Username" aria-describedby="basic-addon1">
                 </div>
             </div>
 
@@ -59,7 +60,17 @@
     <!-- section dedicata ai contatti -->
     <section class="container my-5">
         <div id="cardsWrapper" class="row justify-content-center">
-            <!-- qui andranno le card dei contatti -->
+            <div class="col-7 my-3">
+
+
+                <div class="cardContact d-flex align-items-center justify-content-evenly">
+                    <i class="fa-regular fa-user"></i>
+                    <h5>Nome Contatto</h5>
+                    <h5>Numero Contatto</h5>
+                    <i class="fa-solid fa-trash-can"></i>
+                </div>
+
+            </div>
         </div>
     </section>
 
